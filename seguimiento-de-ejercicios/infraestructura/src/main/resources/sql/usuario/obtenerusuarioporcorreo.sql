@@ -1,0 +1,1 @@
+select id_usuario,nombre,peso,fecha_nacimiento,correo, contrasenia from usuario where correo=:correo

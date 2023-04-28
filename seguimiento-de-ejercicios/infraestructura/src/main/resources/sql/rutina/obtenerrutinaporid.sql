@@ -1,0 +1,1 @@
+select id_rutina ,descripcion,objetivo,usuario from rutina where id_rutina=:id_rutina

@@ -1,0 +1,22 @@
+jasypt:
+   encryptor:
+      password: ${jasyptpwd:secretkey}
+      algorithm: PBEWithMD5AndDES
+server:
+   port: 8080
+   servlet:
+      context-path: /seguimiento-de-ejercicios
+      session:
+         timeout: 21600s
+springdoc:
+   swagger-ui:
+      path: /swagger-ui.html
+spring:
+   datasource:
+      driver-class-name: org.mariadb.jdbc.Driver
+      type: com.zaxxer.hikari.HikariDataSource
+      jdbcUrl: jdbc:mariadb://localhost:3306/seguimiento_ejercicios?user=root&password=root
+      username: root
+      password: root
+      hikari:
+         poolName: pool

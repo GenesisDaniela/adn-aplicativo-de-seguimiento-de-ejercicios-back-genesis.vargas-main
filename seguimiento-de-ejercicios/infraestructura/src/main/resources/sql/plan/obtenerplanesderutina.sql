@@ -1,0 +1,1 @@
+select id ,peso,series,ejercicio,rutina,repeticiones from plan where rutina=:id_rutina

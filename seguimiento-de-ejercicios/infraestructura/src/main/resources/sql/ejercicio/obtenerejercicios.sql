@@ -1,0 +1,1 @@
+select id_ejercicio ,nombre, seccion_cuerpo from ejercicio

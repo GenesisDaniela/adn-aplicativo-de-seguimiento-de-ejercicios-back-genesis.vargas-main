@@ -1,0 +1,1 @@
+select correo, contrasenia from usuario where correo= :correo and contrasenia = :contrasenia

@@ -1,0 +1,1 @@
+insert into plan(id,rutina,ejercicio,peso, series, repeticiones) values (:id,:rutina,:ejercicio,:peso,:series, :repeticiones)

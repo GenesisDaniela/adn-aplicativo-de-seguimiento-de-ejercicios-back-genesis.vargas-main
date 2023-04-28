@@ -1,0 +1,1 @@
+insert into rutina(id_rutina,descripcion,objetivo,usuario) values (:id_rutina,:descripcion,:objetivo,:usuario)
